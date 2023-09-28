@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Emily's Fundraising"
+  site-url: 'https://emilysfundraising.com/'
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+smooth-scroll: true
+format:
+  html:
+    theme: [simplex, simplex-theme.scss]
+    css: styles.css
+    toc: true
+
+editor: visual
+
