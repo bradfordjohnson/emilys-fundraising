@@ -6,13 +6,22 @@ website:
   title: "Emily's Fundraising"
   site-url: 'https://emilysfundraising.com/'
   navbar:
-    pinned: true
+    title: false
+    logo: "assets/logo_transparent.png"
     left:
       - href: index.qmd
         text: Home
-smooth-scroll: true
+      - href: about.qmd
+        text: About
+      - href: programs.qmd
+        text: Programs
+    smooth-scroll: true
+  page-footer:
+    left:
+      - icon: envelope
 format:
   html:
+    link-external-newwindow: true
     theme: [simplex, simplex-theme.scss]
     css: styles.css
     toc: true
