@@ -1,5 +1,5 @@
 .navbar-brand > img {
-  max-height: 80px;
+  max-height: 60px;
 }
 
 .navbar-nav .show>.nav-link, .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active {
@@ -8,4 +8,43 @@
 
 .nav-link {
   font-size: 20px !important;
+}
+
+.specialties {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 40px);
+  min-width: 300px;
+}
+
+.card-header h3 {
+  margin: 0px;
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+.card-header img {
+  height: 50px;
+}
+
+.card-header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.card-body p {
+  margin: 0;
+  font-size: 1.1rem;
 }

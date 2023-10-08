@@ -1,3 +1,8 @@
 ---
-title: "Emily's Fundraising"
+format: 
+  html:
+    page-layout: full
+    anchor-sections: false
 ---
+
+![](assets/Recipie-for-Fundraising-Success.png){fig-align="center"}

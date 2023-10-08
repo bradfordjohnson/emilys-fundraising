@@ -1,0 +1,15 @@
+---
+format: 
+  html:
+    page-layout: full
+    anchor-sections: false
+    toc: false
+---
+
+## Fall Programs
+
+As the leaves start to change and the air gets a little crisper, you may be thinking:
+
+"How can I make sure my group reaches our fundraising goals this Fall?" or "Can we do better than last year?"
+
+{{< pdf ../assets/Fall-2023-Fundraising-Programs.pdf width=100% height=800 >}}

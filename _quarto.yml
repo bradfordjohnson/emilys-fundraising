@@ -1,24 +1,29 @@
 project:
   type: website
+  resources: 
+    - "assets/Fall-2023-Fundraising-Programs.pdf"
   output-dir: docs
 
 website:
   title: "Emily's Fundraising"
   site-url: 'https://emilysfundraising.com/'
+  favicon: "assets/favicon.png"
   navbar:
+    pinned: true
     title: false
     logo: "assets/logo_transparent.png"
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
+      - href: about/index.qmd
         text: About
-      - href: programs.qmd
+      - href: programs/index.qmd
         text: Programs
     smooth-scroll: true
   page-footer:
-    left:
-      - icon: envelope
+    center:
+      - text: "Email"
+        href: mailto:emilycobbfundraising@gmail.com
 format:
   html:
     link-external-newwindow: true
