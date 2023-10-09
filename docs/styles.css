@@ -1,90 +1,64 @@
-.cardBox {
-  width: 250px;
-  height: 300px;
-  position: relative;
-  display: grid;
-  place-items: center;
-  overflow: hidden;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px 0px,
-    rgba(0, 0, 0, 0.5) 0px 2px 25px 0px;
+.navbar-brand > img {
+  max-height: 60px;
+}
+
+.navbar-nav .show>.nav-link, .navbar-nav .active>.nav-link, .navbar-nav .nav-link.active {
+    color: #EC2C34;
+}
+
+.nav-link {
+  font-size: 20px !important;
+}
+
+.specialties {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-  position: absolute;
-  width: 95%;
-  height: 95%;
-  background: #000814;
-  border-radius: 20px;
-  z-index: 5;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  text-align: center;
-  color: #ffffff;
-  overflow: hidden;
+  justify-content: space-evenly;
+  margin: 20px;
   padding: 20px;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.5) 0px 18px 36px -18px inset;
+  /*border: 1px solid #ddd;*/
+  border-radius: 5px;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  width: calc(50% - 40px);
+  min-width: 300px;
 }
 
-.card .h4 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  font-weight: 800;
-  pointer-events: none;
-  opacity: .5;
+.card-header h1 {
+  margin: 0px;
+  font-size: 1.5rem;
+  flex: 1;
 }
 
-.card .content .h3 {
-  font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 10px;
+.card-body p {
+  margin: 0;
+  font-size: 1.1rem;
 }
 
-.card .content p {
-  font-size: 14px;
-  line-height: 1.4em;
+.card {
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.card .content {
-  transform: translateY(100%);
-  opacity: 0;
-  transition: 0.3s ease-in-out;
+.card-header {
+background: rgba( 255, 255, 255, 0 );
 }
 
-.card:hover .content {
-  transform: translateY(0);
-  opacity: 1;
+body {
+  background-image: 
+    radial-gradient(rgb(252, 252, 252) 38.4%, transparent 38.4%),
+    radial-gradient(rgb(252, 252, 252) 38.4%, transparent 38.4%);
+  background-position: 0px 0px, 204px 204px;
+  background-size: 408px 408px;
+  background-color: rgb(255, 255, 255);
 }
 
-.card:hover .h4 {
-  opacity: 0;
-}
 
-.cardBox::before {
-  content: "";
-  position: absolute;
-  width: 40%;
-  height: 150%;
-  background: #EC2C34;
-  background: -webkit-linear-gradient(to right, #EC2C34, #FDF5A1);
-  background: linear-gradient(to right, #EC2C34, #FDF5A1);
-  transform-origin: center;
-  animation: glowing_401 5s linear infinite;
-}
-
-@keyframes glowing_401 {
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
