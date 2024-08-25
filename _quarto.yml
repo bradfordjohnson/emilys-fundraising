@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Emily's Fundraising"
+  site-url: 'https://emilysfundraising.com/'
+  favicon: "assets/favicon.png"
+
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - this is some information that you should pay attention to"
+  #   type: primary
+  #   position: below-navbar
+  # navbar:
+  #   logo: "assets/logo_transparent.png"
+  #   logo-alt: "Emily's Fundraising Logo"
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+      # - href: about/index.qmd
+      #   text: About
+  page-footer:
+    center:
+      - text: "Email"
+        href: mailto:emilycobbfundraising@gmail.com
+format:
+  html:
+    link-external-newwindow: true
+    smooth-scroll: true
+    # theme: styles.scss
+    css: styles.css
+
+    toc: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">

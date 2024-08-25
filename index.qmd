@@ -1,0 +1,13 @@
+::: column-screen-inset
+<div class="hero">
+<h1 class="hero">Your recipe for <span class="cta">Fantastic Fall Fundraising.</span></h1>
+
+<button type="button" class="btn btn-cta">Contact Us</button>
+</div>
+<h2>Testimonials</h2>
+
+<h2>Highlights</h2>
+
+<h2>FAQ</h2>
+
+:::
