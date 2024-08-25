@@ -1,11 +1,19 @@
-::: column-screen-inset
+::: column-page-inset
 <div class="hero">
 <h1 class="hero">
 Your recipe for <span class="cta">Fantastic Fall Fundraising.</span>
 </h1>
-
-<button type="button" class="btn btn-cta">Contact Us</button>
+<div class="hero" style="display: flex; justify-content: center;">
+<button type="button" class="btn btn-cta" onclick="window.location.href='mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry'">
+Contact Me
+</button>
 </div>
+</div>
+
+:::
+
+::: column-page-inset
+<div class="testimonials">
 <h2>Testimonials</h2>
 
 <div class="grid-container">
@@ -61,9 +69,12 @@ Christopher Moore, <cite title="Source Title">Irmo Middle Chorus</cite>
 </figcaption>
 </figure>
 </div>
-
+</div>
 </div>
 
+:::
+
+::: column-page-inset
 
 <h2>Highlights</h2>
 

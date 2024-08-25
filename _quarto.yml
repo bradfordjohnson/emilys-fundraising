@@ -24,14 +24,14 @@ website:
   page-footer:
     center:
       - text: "Email"
-        href: mailto:emilycobbfundraising@gmail.com
+        href: mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry
 format:
   html:
     link-external-newwindow: true
     smooth-scroll: true
     # theme: styles.scss
     css: styles.css
-
+    anchor-sections: false
     toc: true
     include-in-header:
       - text: |

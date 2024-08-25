@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -93,16 +92,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="column-screen-inset">
+<div class="column-page-inset">
 <div class="hero">
 <h1 class="hero">
 Your recipe for <span class="cta">Fantastic Fall Fundraising.</span>
 </h1>
-<button type="button" class="btn btn-cta">
-Contact Us
+<div class="hero" style="display: flex; justify-content: center;">
+<button type="button" class="btn btn-cta" onclick="window.location.href='mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry'">
+Contact Me
 </button>
 </div>
-<h2 class="anchored">
+</div>
+</div>
+<div class="column-page-inset">
+<div class="testimonials">
+<h2>
 Testimonials
 </h2>
 <div class="grid-container">
@@ -155,10 +159,13 @@ Christopher Moore, <cite title="Source Title">Irmo Middle Chorus</cite>
 </figure>
 </div>
 </div>
-<h2 class="anchored">
+</div>
+</div>
+<div class="column-page-inset">
+<h2>
 Highlights
 </h2>
-<h2 class="anchored">
+<h2>
 FAQ
 </h2>
 </div>
@@ -186,13 +193,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -600,7 +600,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="mailto:emilycobbfundraising@gmail.com">
+    <a class="nav-link" href="mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry">
 <p>Email</p>
 </a>
   </li>  
