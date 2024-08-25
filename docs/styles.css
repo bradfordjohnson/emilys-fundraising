@@ -3,48 +3,120 @@
   margin: 4;
   text-wrap: balance;
 }
+
 .hero h1 {
   font-family: "Josefin Slab", serif;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1;
 }
+
 .cta {
   color: #a50202;
   font-family: "Marck Script", cursive;
   font-size: 2rem;
   font-weight: 500;
 }
-.btn-cta{
+
+.btn-cta {
   border-color: #a50202;
   background: white;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   color: #a50202;
   font-family: "Josefin Slab", serif;
   font-weight: 600;
 }
 
-.btn-cta:hover{
+.btn-cta:hover {
   background: #a50202;
   color: white;
 }
+
+.anchorjs-link {
+  text-decoration-color: #a50202;
+  color: #a50202;
+}
+
+.nav-link {
+  color: #000000;
+  font-family: "Josefin Slab", serif;
+  font-weight: 800;
+  margin: 1;
+}
+
+.nav-link:hover {
+  color: #a50202;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  justify-content: left;
+}
+
+.grid-item {
+  
+  /* flex: 1 1 calc(33.333% - 32px); */
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* .card-title {
+  font-family: "Josefin Slab", serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-family: "Cambay", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  margin: 1;
+} */
+
+.blockquote {
+  font-family: "Cambay", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.blockquote-footer {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: #777;
+}
+.blockquote-footer::before {
+  content: "— ";
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
 h2 {
   font-family: "Josefin Slab", serif;
   font-weight: 600;
   border-bottom: none;
   margin: 1;
 }
+
 body {
   font-family: "Cambay", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 1;
 }
-footer {
-  color: #212529;
-  font-family: "Josefin Slab", serif;
-  font-weight: 800;
-  margin: 1;
-}
-
-
