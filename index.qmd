@@ -1,4 +1,4 @@
-::: column-page-inset
+::: column-page
 <div class="hero">
 <h1 class="hero">
 Your recipe for <span class="cta">Fantastic Fall Fundraising.</span>
@@ -12,10 +12,67 @@ Contact Me
 
 :::
 
-::: column-page-inset
-<div class="testimonials">
-<h2>Testimonials</h2>
+::: column-page
+<div class="grid programs">
 
+<div class="g-col-6 programs-desc">
+
+<h2>
+Programs
+</h2>
+
+<p>
+Here you can provide a brief overview of the key features of the product. For example, you could list the number of features, the types of features, add-ons, or the benefits of the features.
+</p>
+<div class="programs-listing">
+
+<div class="custom-program">
+<div class="programs-cust-head">
+<p>
+Products
+</p>
+</div>
+<div class="programs-cust-tail">
+<p>
+ For example, you could list the number of features, the types of features, add-ons, or the benefits of the features.
+</p>
+</div>
+</div>
+
+<div class="custom-program">
+<div class="programs-cust-head">
+<p>
+Products
+</p>
+</div>
+<div class="programs-cust-tail">
+<p>
+ For example, you could list the number of features, the types of features, add-ons, or the benefits of the features.
+</p>
+</div>
+</div>
+
+</div>
+
+</div>
+<div class="g-col-6 programs-img">
+![](/assets/logo.svg)
+</div>
+</div>
+
+:::
+
+
+::: column-page
+<div class="testimonials">
+<div class="testimonials-head">
+<h2>Testimonials</h2>
+<div class="testimonials-desc">
+<p>
+See what our customers love about our products. Discover how we excel in efficiency, durability, and satisfaction. Join us for quality, innovation, and reliable support.
+</p>
+</div>
+</div>
 <div class="grid-container">
 
 <div class="grid-item">
