@@ -3,6 +3,11 @@
 <h1 class="hero">
 Your recipe for <span class="cta">Fantastic Fall Fundraising.</span>
 </h1>
+
+<p>
+Empower your school's music, band, and chorus programs with Emily's Fundraising. Our selection of programs makes fundraising both fun and rewarding, helping your program reach new heights with ease and enthusiasm.
+</p>
+
 <div class="hero" style="display: flex; justify-content: center;">
 <button type="button" class="btn btn-cta" onclick="window.location.href='mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry'">
 Contact Me
@@ -18,40 +23,44 @@ Contact Me
 <div class="g-col-6 programs-desc">
 
 <h2>
-Programs
+How Emily Supports Groups in the Southeast
 </h2>
 
-<p>
-Here you can provide a brief overview of the key features of the product. For example, you could list the number of features, the types of features, add-ons, or the benefits of the features.
+<p class=program-desc-p>
+Uncover a range of creative and effective fundraising solutions designed to help your school programs succeed. From unique sales initiatives to engaging donation platforms, Emily's Fundraising has everything you need to reach your goals.
 </p>
 <div class="programs-listing">
 
-<div class="custom-program">
+<a href="/marching-band-contest-program.pdf" id="marching-band-contest-program.pdf">
+<div class="custom-program" id="4-reasons-to-get-excited">
 <div class="programs-cust-head">
 <p>
-Products
+4 Reasons to get excited about fundraising this year
 </p>
 </div>
 <div class="programs-cust-tail">
 <p>
- For example, you could list the number of features, the types of features, add-ons, or the benefits of the features.
+This marching season, trust Emily’s to help secure the funding you need.
+We’ll be there for you, every step of the way.
 </p>
 </div>
 </div>
+</a>
 
-<div class="custom-program">
+<a href="/2023-fall-fundraising-programs.pdf" id="2023-fall-fundraising-programs">
+<div class="custom-program" id="2023-fall-fundraising-programs">
 <div class="programs-cust-head">
 <p>
-Products
+Brochures and programs
 </p>
 </div>
 <div class="programs-cust-tail">
 <p>
- For example, you could list the number of features, the types of features, add-ons, or the benefits of the features.
+Explore a variety of programs with Emily's Fundraising, including Online Sales, Designer Collection, Donation Platforms, Poppin Popcorn, and more.
 </p>
 </div>
 </div>
-
+</a>
 </div>
 
 </div>
@@ -83,7 +92,7 @@ When it comes to someone who you can trust to help you raise funds to improve th
 </p>
 </blockquote>
 <figcaption class="blockquote-footer">
-Dr. Marcus Morris, <cite title="Source Title">Dorman High School Band</cite>
+Dr. Marcus Morris, Dorman High School Band
 </figcaption>
 </figure>
 </div>
@@ -96,7 +105,7 @@ I have worked with Emily for years, and she provides an excellent experience for
 </p>
 </blockquote>
 <figcaption class="blockquote-footer">
-Pam Brunson, <cite title="Source Title">Laing Chorus</cite>
+Pam Brunson, Laing Chorus
 </figcaption>
 </figure>
 </div>
@@ -109,7 +118,7 @@ She has such a love and passion for her clients! Emily goes above and beyond to 
 </p>
 </blockquote>
 <figcaption class="blockquote-footer">
-Colleen Marsh, <cite title="Source Title">Sevier Middle Band and Strings</cite>
+Colleen Marsh, Sevier Middle Band and Strings
 </figcaption>
 </figure>
 </div>
@@ -122,7 +131,7 @@ What impressed me the most was Emily’s infectious enthusiasm for the cause. It
 </p>
 </blockquote>
 <figcaption class="blockquote-footer">
-Christopher Moore, <cite title="Source Title">Irmo Middle Chorus</cite>
+Christopher Moore, Irmo Middle Chorus
 </figcaption>
 </figure>
 </div>
@@ -133,9 +142,9 @@ Christopher Moore, <cite title="Source Title">Irmo Middle Chorus</cite>
 
 ::: column-page-inset
 
-<h2>Highlights</h2>
+<!---<h2>Highlights</h2>
 
-<h2>FAQ</h2>
+<h2>FAQ</h2>-->
 
 
 :::
