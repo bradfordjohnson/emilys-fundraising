@@ -1,8 +1,150 @@
----
-format: 
-  html:
-    page-layout: full
-    anchor-sections: false
----
+::: column-page
+<div class="hero">
+<h1 class="hero">
+Your recipe for <span class="cta">Fantastic Fall Fundraising.</span>
+</h1>
 
-![](assets/Recipie-for-Fundraising-Success.png){fig-align="center"}
+<p>
+Empower your school's music, band, and chorus programs with Emily's Fundraising. Our selection of programs makes fundraising both fun and rewarding, helping your program reach new heights with ease and enthusiasm.
+</p>
+
+<div class="hero" style="display: flex; justify-content: center;">
+<button type="button" class="btn btn-cta" onclick="window.location.href='mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry'">
+Contact Me
+</button>
+</div>
+</div>
+
+:::
+
+::: column-page
+<div class="grid programs">
+
+<div class="g-col-6 programs-desc">
+
+<h2>
+How Emily Supports Groups in the Southeast
+</h2>
+
+<p class=program-desc-p>
+Uncover a range of creative and effective fundraising solutions designed to help your school programs succeed. From unique sales initiatives to engaging donation platforms, Emily's Fundraising has everything you need to reach your goals.
+</p>
+<div class="programs-listing">
+
+<a href="/marching-band-contest-program.pdf" id="marching-band-contest-program.pdf">
+<div class="custom-program" id="4-reasons-to-get-excited">
+<div class="programs-cust-head">
+<p>
+4 Reasons to get excited about fundraising this year
+</p>
+</div>
+<div class="programs-cust-tail">
+<p>
+This marching season, trust Emily’s to help secure the funding you need.
+We’ll be there for you, every step of the way.
+</p>
+</div>
+</div>
+</a>
+
+<a href="/2023-fall-fundraising-programs.pdf" id="2023-fall-fundraising-programs">
+<div class="custom-program" id="2023-fall-fundraising-programs">
+<div class="programs-cust-head">
+<p>
+Brochures and programs
+</p>
+</div>
+<div class="programs-cust-tail">
+<p>
+Explore a variety of programs with Emily's Fundraising, including Online Sales, Designer Collection, Donation Platforms, Poppin Popcorn, and more.
+</p>
+</div>
+</div>
+</a>
+</div>
+
+</div>
+<div class="g-col-6 programs-img">
+![](/assets/logo.svg)
+</div>
+</div>
+
+:::
+
+
+::: column-page
+<div class="testimonials">
+<div class="testimonials-head">
+<h2>Testimonials</h2>
+<div class="testimonials-desc">
+<p>
+See what our customers love about our products. Discover how we excel in efficiency, durability, and satisfaction. Join us for quality, innovation, and reliable support.
+</p>
+</div>
+</div>
+<div class="grid-container">
+
+<div class="grid-item">
+<figure>
+<blockquote class="blockquote">
+<p class="mb-0">
+When it comes to someone who you can trust to help you raise funds to improve the experiences for your students, Emily is the go-to for it all. We have been able to provide hundreds of students more access to great experiences over the years as a result of teaming up with Emily’s fundraising.
+</p>
+</blockquote>
+<figcaption class="blockquote-footer">
+Dr. Marcus Morris, Dorman High School Band
+</figcaption>
+</figure>
+</div>
+
+<div class="grid-item">
+<figure>
+<blockquote class="blockquote">
+<p class="mb-0">
+I have worked with Emily for years, and she provides an excellent experience for me and my students. Families and customers rave about the simplicity of the program and the rapid turnaround. Having both brochure and online components appeals to everyone.
+</p>
+</blockquote>
+<figcaption class="blockquote-footer">
+Pam Brunson, Laing Chorus
+</figcaption>
+</figure>
+</div>
+
+<div class="grid-item">
+<figure>
+<blockquote class="blockquote">
+<p class="mb-0">
+She has such a love and passion for her clients! Emily goes above and beyond to help a program be as successful as possible when fundraising! She makes raising money fun and easy! Highly recommend her services and products! She is truly a joy to work with!
+</p>
+</blockquote>
+<figcaption class="blockquote-footer">
+Colleen Marsh, Sevier Middle Band and Strings
+</figcaption>
+</figure>
+</div>
+
+<div class="grid-item">
+<figure>
+<blockquote class="blockquote">
+<p class="mb-0">
+What impressed me the most was Emily’s infectious enthusiasm for the cause. It created a wonderful atmosphere of excitement among the students and staff, making the fundraising process not only successful but also enjoyable. Being my first fundraiser, I was initially unsure, but Emily’s Fundraising made it a memorable experience.
+</p>
+</blockquote>
+<figcaption class="blockquote-footer">
+Christopher Moore, Irmo Middle Chorus
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+:::
+
+::: column-page-inset
+
+<!---<h2>Highlights</h2>
+
+<h2>FAQ</h2>-->
+
+
+:::

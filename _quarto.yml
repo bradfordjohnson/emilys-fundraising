@@ -1,35 +1,62 @@
 project:
   type: website
-  resources: 
-    - "assets/Fall-2023-Fundraising-Programs.pdf"
+  resources:
+    - "marching-band-contest-program.pdf"
+    - "2023-fall-fundraising-programs.pdf"
   output-dir: docs
 
 website:
   title: "Emily's Fundraising"
+  cookie-consent: true
   site-url: 'https://emilysfundraising.com/'
   favicon: "assets/favicon.png"
-  navbar:
-    pinned: true
-    title: false
-    logo: "assets/logo_transparent.png"
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about/index.qmd
-        text: About
-      - href: programs/index.qmd
-        text: Programs
-    smooth-scroll: true
+
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - this is some information that you should pay attention to"
+  #   type: primary
+  #   position: below-navbar
+  # navbar:
+  #   logo: "assets/logo_transparent.png"
+  #   logo-alt: "Emily's Fundraising Logo"
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+      # - href: about/index.qmd
+      #   text: About
   page-footer:
     center:
       - text: "Email"
-        href: mailto:emilycobbfundraising@gmail.com
+        href: mailto:emilycobbfundraising@gmail.com?subject=Contact%20Inquiry
+      - text: 864-907-6430
+        href: tel:+18649076430
 format:
   html:
     link-external-newwindow: true
-    theme: [simplex, simplex-theme.scss]
+    smooth-scroll: true
+    # theme: styles.scss
     css: styles.css
+    anchor-sections: false
     toc: true
-
-editor: visual
-
+    include-in-header:
+      - text: |
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-53MF5TTL');</script>
+          <!-- End Google Tag Manager -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      
+    include-after-body:
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53MF5TTL"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
